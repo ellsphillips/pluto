@@ -1,22 +1,27 @@
 import React from "react";
 import logo from "./img/logo.svg";
 import "./App.css";
+import Icon from "./components/Icon";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <Icon
+          type="ROUNDED"
+          src={logo}
+          size={400}
+          padding={100}
+          onClick={() => alert("Future router...")}
+        />
+
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/ellsphillips/doctor"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Doctor
         </a>
       </header>
     </div>
