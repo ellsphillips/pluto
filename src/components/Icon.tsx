@@ -15,7 +15,12 @@ const Icon = (props: IconProps) => (
     className="icon-wrapper"
     onClick={() => props.onClick && props.onClick()}
   >
-    <div className={`icon-container ${props.onClick ? "pointer" : ""}`}>
+    <div
+      className="icon-container"
+      style={{
+        cursor: props.onClick ? "pointer" : "",
+      }}
+    >
       <div
         className={`icon ${props.type.toLowerCase()}`}
         style={{
