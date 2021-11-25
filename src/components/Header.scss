@@ -1,7 +1,6 @@
 @use "../styles/base/base";
 
 .header {
-  top: 0;
   z-index: 30;
 
   .container {
@@ -10,7 +9,7 @@
     align-items: center;
     justify-content: space-between;
 
-    background-color: var(--clr-grey-700);
+    background-color: hsl(var(--clr-grey-700));
     border-radius: 1rem;
 
     // @media (min-width: 600px) {
@@ -18,27 +17,32 @@
     // }
 
     .hero {
-      background-image: radial-gradient(
-          at 100% 100%,
-          hsla(var(--clr-primary), 1) 0,
-          transparent 60%
-        ),
-        radial-gradient(
-          at 86% 69%,
-          hsla(var(--clr-secondary), 1) 0,
-          transparent 75%
-        ),
-        radial-gradient(
-          at 0% 0%,
-          hsla(var(--clr-secondary), 1) 0,
-          transparent 50%
-        );
+    //   background-image: radial-gradient(
+    //       at 100% 100%,
+    //       hsla(var(--clr-primary), 1) 0,
+    //       transparent 60%
+    //     ),
+    //     radial-gradient(
+    //       at 86% 69%,
+    //       hsla(var(--clr-secondary), 1) 0,
+    //       transparent 75%
+    //     ),
+    //     radial-gradient(
+    //       at 0% 0%,
+    //       hsla(var(--clr-secondary), 1) 0,
+    //       transparent 50%
+    //     );
       background-size: cover;
       width: 100%;
       height: 50%;
     }
 
     .navigation {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-right: 1.5rem;
+
       .hamburger {
         color: rgba(107, 114, 128, 1);
 
