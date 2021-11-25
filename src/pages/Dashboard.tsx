@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import App from "../components/App";
 import Header from "../components/Header";
@@ -7,8 +7,8 @@ import "./Dashboard.scss";
 
 function Dashboard() {
   return (
-    <div className="app-wrapper">
-      <div className="container">
+    <div className="dashboard-wrapper">
+      <div className="dashboard-container">
         <Header />
 
         <App />

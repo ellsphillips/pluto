@@ -1,10 +1,11 @@
-.app-wrapper {
+.dashboard-wrapper {
   display: flex;
+  margin: 2rem;
   height: 100vh;
   overflow: hidden;
 }
 
-.container {
+.dashboard-container {
   position: relative;
   display: flex;
   flex-direction: column;
