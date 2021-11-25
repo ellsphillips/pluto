@@ -11,7 +11,11 @@ function App() {
     <div
       style={{
         marginTop: "4rem",
+        padding: "2rem",
         width: "100%",
+        backgroundColor: "var(--clr-grey-700)",
+        borderTopLeftRadius: 20,
+        borderTopRightRadius: 20,
       }}
     >
       <header className="App-header">
