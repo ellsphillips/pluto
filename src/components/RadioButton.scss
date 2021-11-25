@@ -3,9 +3,9 @@
   margin-top: 1rem;
   position: relative;
 
-  & :hover {
-    opacity: 0.8;
-  }
+  //   & :hover {
+  //     opacity: 0.8;
+  //   }
 
   input[type="radio"] {
     display: none;
@@ -13,6 +13,8 @@
 
   input[type="radio"]:checked + label {
     background-color: rgba(#f39669, 0.1);
+
+    transition: background-color 0.2s ease;
   }
 
   label {
@@ -31,9 +33,7 @@
 
     img {
       object-fit: cover;
-      width: 2.5rem;
-      height: 2.5rem;
-      border-radius: 10px;
+      height: 1.25rem;
     }
 
     .radio-button__text {

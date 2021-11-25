@@ -26,7 +26,7 @@ function App() {
         </a>
 
         <RadioButton label="R1" text="Radio-1" image={logo} />
-        <RadioButton label="R2" text="Radio-2" image={logo} />
+        <RadioButton label="R2" text="Radio-2" />
         <RadioButton label="R3" text="Radio-3" image={logo} />
       </header>
     </div>
