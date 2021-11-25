@@ -1,3 +1,5 @@
+@use "../styles/base/base";
+
 .radio-button__wrapper {
   min-width: 12rem;
   margin-top: 1rem;
@@ -8,7 +10,7 @@
   }
 
   input[type="radio"]:checked + label {
-    background-color: rgba(#f39669, 0.2);
+    background-color: rgba(var(--clr-primary), 0.2);
 
     transition: background-color 0.2s ease;
   }
@@ -36,7 +38,7 @@
     }
 
     .radio-button__text {
-      color: #f39669;
+      color: var(--clr-primary);
       font-weight: 700;
       font-size: 0.875rem;
       line-height: 1.25rem;
