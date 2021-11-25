@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=fallback");
+
+:root {
+  --clr-primary: #f39669;
+  --clr-secondary: #ffd866;
+
+  --clr-fg: #effcfa;
+  --clr-bg: #2d2a2e;
+
+  --clr-grey-100: #faf9f9;
+  --clr-grey-200: #f4f2f2;
+  --clr-grey-300: #f0eeee;
+  --clr-grey-400: #ccc;
+
+  --clr-grey-700: #333;
+  --clr-grey-800: #777;
+  --clr-grey-900: #999;
+
+  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+
+  --border-radius-small: 0.4rem;
+  --border-radius-big: 1rem;
+}
+
+$bp-small: 25rem;
+$bp-medium: 37.5rem;
+$bp-large: 60rem;
+$bp-largest: 75rem;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--clr-fg);
+  background-color: var(--clr-bg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+::selection {
+  background-color: var(--clr-secondary);
+  color: var(--clr-bg);
+}
