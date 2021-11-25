@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "./img/logo.svg";
-import "./App.css";
+import "./styles/App.scss";
 import Icon from "./components/Icon";
 import RadioButton from "./components/RadioButton";
 
