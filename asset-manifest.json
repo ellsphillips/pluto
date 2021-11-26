@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/pluto/static/css/main.cc5859dd.chunk.css",
-    "main.js": "/pluto/static/js/main.fcf86762.chunk.js",
-    "main.js.map": "/pluto/static/js/main.fcf86762.chunk.js.map",
+    "main.css": "/pluto/static/css/main.09a438f9.chunk.css",
+    "main.js": "/pluto/static/js/main.10498314.chunk.js",
+    "main.js.map": "/pluto/static/js/main.10498314.chunk.js.map",
     "runtime-main.js": "/pluto/static/js/runtime-main.a25e302e.js",
     "runtime-main.js.map": "/pluto/static/js/runtime-main.a25e302e.js.map",
     "static/js/2.8a0f0d35.chunk.js": "/pluto/static/js/2.8a0f0d35.chunk.js",
     "static/js/2.8a0f0d35.chunk.js.map": "/pluto/static/js/2.8a0f0d35.chunk.js.map",
     "index.html": "/pluto/index.html",
-    "static/css/main.cc5859dd.chunk.css.map": "/pluto/static/css/main.cc5859dd.chunk.css.map",
+    "static/css/main.09a438f9.chunk.css.map": "/pluto/static/css/main.09a438f9.chunk.css.map",
     "static/js/2.8a0f0d35.chunk.js.LICENSE.txt": "/pluto/static/js/2.8a0f0d35.chunk.js.LICENSE.txt",
     "static/media/logo.f4124d10.svg": "/pluto/static/media/logo.f4124d10.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a25e302e.js",
     "static/js/2.8a0f0d35.chunk.js",
-    "static/css/main.cc5859dd.chunk.css",
-    "static/js/main.fcf86762.chunk.js"
+    "static/css/main.09a438f9.chunk.css",
+    "static/js/main.10498314.chunk.js"
   ]
 }
