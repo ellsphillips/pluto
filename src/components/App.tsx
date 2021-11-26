@@ -8,16 +8,7 @@ import RadioButton from "./RadioButton";
 
 function App() {
   return (
-    <div
-      style={{
-        marginTop: "4rem",
-        padding: "2rem",
-        width: "100%",
-        backgroundColor: "hsl(var(--clr-grey-700))",
-        borderTopLeftRadius: 20,
-        borderTopRightRadius: 20,
-      }}
-    >
+    <div className="App">
       <header className="App-header">
         <Icon
           type="ROUNDED"

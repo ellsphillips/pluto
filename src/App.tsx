@@ -11,7 +11,6 @@ function App() {
   return (
     <div
       style={{
-        marginTop: "4rem",
         width: "100%",
       }}
     >

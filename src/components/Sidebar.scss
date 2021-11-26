@@ -4,9 +4,8 @@
   margin: 0rem 0;
 
   @media (min-width: 1024px) {
-    width: 18rem;
-    margin: 1rem;
-    margin-right: 0;
+    // width: 18rem;
+    // margin-right: 2rem;
   }
 
   &--backdrop {
@@ -15,7 +14,7 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color: hsla(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 
     z-index: 40;
 
@@ -54,9 +53,7 @@
     padding: 1.5rem;
     border-radius: 1rem;
 
-    transition-property: transform;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 200ms;
+    transition: transform cubic-bezier(0.4, 0, 0.2, 1) 200ms;
 
     &__open {
       transform: translateX(0rem);
