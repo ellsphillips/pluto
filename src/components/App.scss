@@ -1,7 +1,13 @@
-// @import "base/base";
+@use "../styles/base/base";
 
 .App {
-  text-align: center;
+  padding: 2rem;
+  background-color: hsl(var(--clr-grey-700));
+  border-radius: 1rem;
+
+  @media (min-width: 1024px) {
+    margin-left: 20rem;
+  }
 }
 
 .App-header {

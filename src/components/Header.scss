@@ -2,6 +2,11 @@
 
 .header {
   z-index: 30;
+  margin-bottom: 2rem;
+
+  @media (min-width: 1024px) {
+    margin-bottom: 0;
+  }
 
   .container {
     position: relative;
@@ -16,22 +21,26 @@
     //   height: 80vh;
     // }
 
+    @media (min-width: 1024px) {
+      display: none;
+    }
+
     .hero {
-    //   background-image: radial-gradient(
-    //       at 100% 100%,
-    //       hsla(var(--clr-primary), 1) 0,
-    //       transparent 60%
-    //     ),
-    //     radial-gradient(
-    //       at 86% 69%,
-    //       hsla(var(--clr-secondary), 1) 0,
-    //       transparent 75%
-    //     ),
-    //     radial-gradient(
-    //       at 0% 0%,
-    //       hsla(var(--clr-secondary), 1) 0,
-    //       transparent 50%
-    //     );
+      //   background-image: radial-gradient(
+      //       at 100% 100%,
+      //       hsla(var(--clr-primary), 1) 0,
+      //       transparent 60%
+      //     ),
+      //     radial-gradient(
+      //       at 86% 69%,
+      //       hsla(var(--clr-secondary), 1) 0,
+      //       transparent 75%
+      //     ),
+      //     radial-gradient(
+      //       at 0% 0%,
+      //       hsla(var(--clr-secondary), 1) 0,
+      //       transparent 50%
+      //     );
       background-size: cover;
       width: 100%;
       height: 50%;
