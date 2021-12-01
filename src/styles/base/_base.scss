@@ -53,6 +53,6 @@ body {
 }
 
 ::selection {
-  background-color: var(--clr-secondary);
+  background-color: hsl(var(--clr-secondary));
   color: var(--clr-bg);
 }
