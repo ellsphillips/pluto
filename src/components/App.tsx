@@ -5,6 +5,8 @@ import "./App.scss";
 
 import Icon from "./Icon";
 import RadioButton from "./RadioButton";
+import Table from "./Table/Table";
+import { exampleTableColumns, exampleTableData } from "./Table/TableData";
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
         <RadioButton label="R2" text="Radio-2" />
         <RadioButton label="R3" text="Radio-3" image={logo} />
       </header>
+
+      <Table data={exampleTableData} columns={exampleTableColumns} />
     </div>
   );
 }
